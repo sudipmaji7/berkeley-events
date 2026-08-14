@@ -1,0 +1,58 @@
+{
+ "generated_at_utc": "2026-08-14T11:30:00.000Z",
+ "source": "SAMPLE DATA - run the GitHub Action to replace with real events",
+ "range": {
+  "start": "2026-08-14",
+  "end": "2026-10-13"
+ },
+ "count": 3,
+ "events": [
+  {
+   "id": 1,
+   "title": "[Sample] Haas Admitted Students Welcome Mixer",
+   "starts_utc": "2026-08-14T19:00:00.000Z",
+   "ends_utc": "2026-08-14T21:00:00.000Z",
+   "all_day": false,
+   "location": "Chou Hall, Haas School of Business",
+   "calendar": "Haas School of Business",
+   "url": "https://events.berkeley.edu/live/events/1",
+   "registration_url": "https://example.com/rsvp",
+   "summary": "Meet fellow admits and faculty over refreshments.",
+   "categories": [
+    "Reception"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": 2,
+   "title": "[Sample] CITRIS Research Exchange: AI Policy",
+   "starts_utc": "2026-08-15T00:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Banatao Auditorium, Sutardja Dai Hall",
+   "calendar": "CITRIS",
+   "url": "https://events.berkeley.edu/live/events/2",
+   "registration_url": null,
+   "summary": "Weekly seminar on technology and society.",
+   "categories": [
+    "Lecture",
+    "Academic"
+   ],
+   "has_registration": false
+  },
+  {
+   "id": 3,
+   "title": "[Sample] Campus Sustainability Fair",
+   "starts_utc": "2026-08-15T18:00:00.000Z",
+   "ends_utc": "2026-08-15T22:00:00.000Z",
+   "all_day": true,
+   "location": "Memorial Glade",
+   "calendar": "Student Affairs",
+   "url": "https://events.berkeley.edu/live/events/3",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  }
+ ]
+}

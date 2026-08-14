@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Berkeley Day Board — every campus event, one page</title>
+<meta name="description" content="A centralized view of all UC Berkeley campus events for any day, with direct RSVP links. Data from the official events.berkeley.edu calendar." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --blue: #003262;        /* Berkeley Blue */
+    --blue-deep: #001f3e;
+    --gold: #FDB515;        /* California Gold */
+    --gold-soft: #ffe9b3;
+    --rock: #3B7EA1;        /* Founders Rock */
+    --paper: #f2f5f9;
+    --card: #ffffff;
+    --ink: #10233b;
+    --ink-soft: #52657d;
+    --line: #dce4ee;
+    --radius: 10px;
+    --display: "Zilla Slab", serif;
+    --body: "Public Sans", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+  body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+  a { color: var(--blue); }
+
+  /* ---------- Masthead ---------- */
+  header {
+    background: var(--blue);
+    color: #fff;
+    border-bottom: 5px solid var(--gold);
+    padding: 22px 20px 18px;
+  }
+  .mast-inner { max-width: 960px; margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  .mast-title { font-family: var(--display); font-weight: 700; font-size: clamp(1.5rem, 4vw, 2.1rem); letter-spacing: 0.2px; }
+  .mast-title .go { color: var(--gold); }
+  .mast-sub { font-size: 0.82rem; color: #c6d4e4; }
+
+  /* ---------- Controls ---------- */
+  .controls {
+    position: sticky; top: 0; z-index: 20;
+    background: var(--card);
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 2px 8px rgba(0, 40, 90, 0.06);
+    padding: 12px 20px;
+  }
+  .controls-inner { max-width: 960px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .seg { display: inline-flex; border: 1.5px solid var(--blue); border-radius: var(--radius); overflow: hidden; }
+  .seg button {
+    background: none; border: none; padding: 8px 14px; cursor: pointer;
+    font-family: var(--body); font-weight: 600; font-size: 0.85rem; color: var(--blue);
+  }
+  .seg button + button { border-left: 1.5px solid var(--blue); }
+  .seg button[aria-pressed="true"] { background: var(--blue); color: #fff; }
+  .nav-group { display: inline-flex; gap: 6px; align-items: center; }
+  .btn {
+    background: var(--card); border: 1.5px solid var(--line); border-radius: var(--radius);
+    padding: 8px 12px; cursor: pointer; font-family: var(--body); font-weight: 600; font-size: 0.85rem; color: var(--ink);
+  }
+  .btn:hover { border-color: var(--rock); }
+  .btn-today { border-color: var(--gold); background: var(--gold-soft); }
+  input[type="date"], input[type="search"], select {
+    border: 1.5px solid var(--line); border-radius: var(--radius); padding: 8px 10px;
+    font-family: var(--body); font-size: 0.85rem; color: var(--ink); background: var(--card);
+  }
+  input[type="search"] { flex: 1; min-width: 140px; }
+  input:focus-visible, select:focus-visible, button:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px; }
+
+  /* ---------- Content ---------- */
+  main { max-width: 960px; margin: 0 auto; padding: 20px 20px 60px; }
+  .board-date {
+    font-family: var(--display); font-weight: 700; font-size: clamp(1.3rem, 3.5vw, 1.8rem);
+    margin: 8px 0 2px;
+  }
+  .board-count { color: var(--ink-soft); font-size: 0.85rem; margin-bottom: 16px; }
+
+  .day-head {
+    font-family: var(--display); font-weight: 600; font-size: 1.15rem;
+    margin: 26px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--gold);
+    position: sticky; top: 62px; background: var(--paper); z-index: 5;
+  }
+
+  /* Event card with the gold time-rail */
+  .event {
+    display: grid; grid-template-columns: 96px 1fr; gap: 0;
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    margin-bottom: 10px; overflow: hidden;
+  }
+  .rail {
+    border-right: 3px solid var(--gold);
+    padding: 14px 10px; display: flex; flex-direction: column; gap: 2px; align-items: flex-start;
+    background: #fbfcfe;
+  }
+  .t-start { font-family: var(--mono); font-weight: 600; font-size: 0.85rem; color: var(--blue); }
+  .t-end { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-soft); }
+  .ev-body { padding: 12px 14px; min-width: 0; }
+  .ev-title { font-family: var(--display); font-weight: 600; font-size: 1.05rem; line-height: 1.3; }
+  .ev-title a { color: var(--ink); text-decoration: none; }
+  .ev-title a:hover { color: var(--blue); text-decoration: underline; }
+  .ev-meta { color: var(--ink-soft); font-size: 0.82rem; margin-top: 3px; }
+  .ev-meta .cal { color: var(--rock); font-weight: 600; }
+  .ev-summary { font-size: 0.85rem; color: var(--ink-soft); margin-top: 6px; }
+  .ev-foot { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .tag {
+    font-size: 0.7rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;
+    background: var(--paper); border: 1px solid var(--line); border-radius: 99px; padding: 2px 9px; color: var(--ink-soft);
+  }
+  .rsvp {
+    margin-left: auto; text-decoration: none; font-weight: 700; font-size: 0.82rem;
+    background: var(--blue); color: #fff; border-radius: var(--radius); padding: 7px 14px;
+  }
+  .rsvp:hover { background: var(--blue-deep); }
+  .rsvp.reg { background: var(--gold); color: var(--blue-deep); }
+
+  .empty, .error {
+    background: var(--card); border: 1.5px dashed var(--line); border-radius: var(--radius);
+    padding: 28px 20px; text-align: center; color: var(--ink-soft); margin-top: 16px;
+  }
+  .error { border-color: #e0b4b4; color: #8a4040; background: #fdf7f7; }
+
+  footer { max-width: 960px; margin: 0 auto; padding: 0 20px 40px; color: var(--ink-soft); font-size: 0.78rem; }
+  footer a { color: var(--rock); }
+
+  @media (max-width: 560px) {
+    .event { grid-template-columns: 78px 1fr; }
+    .controls-inner { gap: 8px; }
+    .day-head { top: 110px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="mast-inner">
+    <div class="mast-title">Berkeley <span class="go">Day Board</span></div>
+    <div class="mast-sub">Every campus event, one page &middot; data from events.berkeley.edu</div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="controls-inner">
+    <div class="seg" role="group" aria-label="View">
+      <button id="v-day" aria-pressed="true">Day</button>
+      <button id="v-week" aria-pressed="false">Week</button>
+      <button id="v-month" aria-pressed="false">Month</button>
+    </div>
+    <div class="nav-group">
+      <button class="btn" id="prev" aria-label="Previous">&larr;</button>
+      <button class="btn btn-today" id="today">Today</button>
+      <button class="btn" id="next" aria-label="Next">&rarr;</button>
+      <input type="date" id="datepick" aria-label="Pick a date" />
+    </div>
+    <input type="search" id="search" placeholder="Search events, speakers, topics…" aria-label="Search events" />
+    <select id="calfilter" aria-label="Filter by calendar"><option value="">All calendars</option></select>
+    <div class="seg" role="group" aria-label="Timezone">
+      <button id="tz-pt" aria-pressed="true">PT</button>
+      <button id="tz-ist" aria-pressed="false">IST</button>
+    </div>
+  </div>
+</div>
+
+<main>
+  <div class="board-date" id="board-date"></div>
+  <div class="board-count" id="board-count"></div>
+  <div id="board"></div>
+</main>
+
+<footer>
+  <p>Source: the official <a href="https://events.berkeley.edu" target="_blank" rel="noopener">UC Berkeley Events calendar</a>, which aggregates all campus institute and department calendars. Data refreshes daily. <span id="updated"></span></p>
+  <p style="margin-top:6px">Not an official UC Berkeley site. Always confirm details on the event page before attending.</p>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  var CAMPUS_TZ = "America/Los_Angeles";
+  var state = {
+    view: "day",            // day | week | month
+    anchor: null,           // "YYYY-MM-DD" campus date the view is centered on
+    tz: CAMPUS_TZ,          // display timezone
+    search: "",
+    calendar: "",
+    events: [],             // normalized events with campus_date precomputed
+    generated: null
+  };
+
+  /* ---------- date helpers (all in campus timezone) ---------- */
+  function partsInTz(date, tz) {
+    var fmt = new Intl.DateTimeFormat("en-CA", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit" });
+    var p = {};
+    fmt.formatToParts(date).forEach(function (x) { p[x.type] = x.value; });
+    return p;
+  }
+  function campusDateStr(date) {
+    var p = partsInTz(date, CAMPUS_TZ);
+    return p.year + "-" + p.month + "-" + p.day;
+  }
+  function todayCampus() { return campusDateStr(new Date()); }
+  function shiftDateStr(str, days) {
+    var d = new Date(str + "T12:00:00Z"); // noon UTC avoids DST edge cases
+    d.setUTCDate(d.getUTCDate() + days);
+    return d.toISOString().slice(0, 10);
+  }
+  function monthOf(str) { return str.slice(0, 7); }
+  function prettyDate(str, opts) {
+    var d = new Date(str + "T12:00:00Z");
+    return d.toLocaleDateString("en-US", Object.assign({ timeZone: "UTC" }, opts));
+  }
+  function fmtTime(iso, tz) {
+    return new Date(iso).toLocaleTimeString("en-US", { timeZone: tz, hour: "numeric", minute: "2-digit" });
+  }
+
+  /* ---------- rendering ---------- */
+  var board = document.getElementById("board");
+  var boardDate = document.getElementById("board-date");
+  var boardCount = document.getElementById("board-count");
+
+  function esc(s) {
+    return String(s || "").replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function matches(ev) {
+    if (state.calendar && ev.calendar !== state.calendar) return false;
+    if (state.search) {
+      var q = state.search.toLowerCase();
+      var hay = (ev.title + " " + ev.summary + " " + ev.location + " " + ev.calendar + " " + ev.categories.join(" ")).toLowerCase();
+      if (hay.indexOf(q) === -1) return false;
+    }
+    return true;
+  }
+
+  function eventCard(ev) {
+    var start = ev.all_day ? "All day" : fmtTime(ev.starts_utc, state.tz);
+    var end = !ev.all_day && ev.ends_utc ? "&ndash; " + fmtTime(ev.ends_utc, state.tz) : "";
+    var link = ev.registration_url || ev.url;
+    var label = ev.registration_url ? "RSVP / Register" : (ev.has_registration ? "View &amp; RSVP" : "Event page");
+    var cls = ev.registration_url ? "rsvp reg" : "rsvp";
+    var tags = ev.categories.slice(0, 3).map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("");
+    return (
+      '<article class="event">' +
+        '<div class="rail"><span class="t-start">' + start + '</span><span class="t-end">' + end + "</span></div>" +
+        '<div class="ev-body">' +
+          '<h3 class="ev-title">' + (ev.url ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + esc(ev.title) + "</a>" : esc(ev.title)) + "</h3>" +
+          '<div class="ev-meta">' +
+            (ev.calendar ? '<span class="cal">' + esc(ev.calendar) + "</span>" : "") +
+            (ev.calendar && ev.location ? " &middot; " : "") + esc(ev.location) +
+          "</div>" +
+          (ev.summary ? '<div class="ev-summary">' + esc(ev.summary) + "</div>" : "") +
+          '<div class="ev-foot">' + tags +
+            (link ? '<a class="' + cls + '" href="' + esc(link) + '" target="_blank" rel="noopener">' + label + "</a>" : "") +
+          "</div>" +
+        "</div>" +
+      "</article>"
+    );
+  }
+
+  function daysInView() {
+    if (state.view === "day") return [state.anchor];
+    if (state.view === "week") {
+      var out = [];
+      for (var i = 0; i < 7; i++) out.push(shiftDateStr(state.anchor, i));
+      return out;
+    }
+    // month: every campus date in the anchor's month
+    var m = monthOf(state.anchor), out2 = [], d = m + "-01";
+    while (monthOf(d) === m) { out2.push(d); d = shiftDateStr(d, 1); }
+    return out2;
+  }
+
+  function render() {
+    var days = daysInView();
+    var t = todayCampus();
+    if (state.view === "day") {
+      boardDate.textContent = prettyDate(state.anchor, { weekday: "long", month: "long", day: "numeric", year: "numeric" }) + (state.anchor === t ? " — today" : "");
+    } else if (state.view === "week") {
+      boardDate.textContent = "Week of " + prettyDate(days[0], { month: "long", day: "numeric" }) + " – " + prettyDate(days[6], { month: "long", day: "numeric", year: "numeric" });
+    } else {
+      boardDate.textContent = prettyDate(state.anchor, { month: "long", year: "numeric" });
+    }
+
+    var total = 0, html = "";
+    days.forEach(function (day) {
+      var evs = state.events.filter(function (e) { return e.campus_date === day && matches(e); });
+      total += evs.length;
+      if (state.view === "day") {
+        html += evs.map(eventCard).join("");
+      } else if (evs.length) {
+        html += '<h2 class="day-head">' + prettyDate(day, { weekday: "long", month: "long", day: "numeric" }) + (day === t ? " — today" : "") + "</h2>" + evs.map(eventCard).join("");
+      }
+    });
+
+    boardCount.textContent = total + (total === 1 ? " event" : " events") +
+      (state.tz === CAMPUS_TZ ? " · times in Pacific Time" : " · times in IST") +
+      (state.calendar ? " · filtered to “" + state.calendar + "”" : "");
+
+    if (!total) {
+      html = '<div class="empty">No events match this view.' +
+        (state.search || state.calendar ? " Try clearing the search or calendar filter." : " Try another day — data covers about the next 60 days.") + "</div>";
+    }
+    board.innerHTML = html;
+  }
+
+  /* ---------- controls wiring ---------- */
+  function setView(v) {
+    state.view = v;
+    ["day", "week", "month"].forEach(function (x) {
+      document.getElementById("v-" + x).setAttribute("aria-pressed", String(x === v));
+    });
+    render();
+  }
+  document.getElementById("v-day").onclick = function () { setView("day"); };
+  document.getElementById("v-week").onclick = function () { setView("week"); };
+  document.getElementById("v-month").onclick = function () { setView("month"); };
+
+  function step(dir) {
+    if (state.view === "day") state.anchor = shiftDateStr(state.anchor, dir);
+    else if (state.view === "week") state.anchor = shiftDateStr(state.anchor, dir * 7);
+    else {
+      var d = new Date(state.anchor + "T12:00:00Z");
+      d.setUTCMonth(d.getUTCMonth() + dir, 1);
+      state.anchor = d.toISOString().slice(0, 10);
+    }
+    document.getElementById("datepick").value = state.anchor;
+    render();
+  }
+  document.getElementById("prev").onclick = function () { step(-1); };
+  document.getElementById("next").onclick = function () { step(1); };
+  document.getElementById("today").onclick = function () {
+    state.anchor = todayCampus();
+    document.getElementById("datepick").value = state.anchor;
+    render();
+  };
+  document.getElementById("datepick").onchange = function (e) {
+    if (e.target.value) { state.anchor = e.target.value; render(); }
+  };
+  document.getElementById("search").oninput = function (e) { state.search = e.target.value.trim(); render(); };
+  document.getElementById("calfilter").onchange = function (e) { state.calendar = e.target.value; render(); };
+  document.getElementById("tz-pt").onclick = function () { state.tz = CAMPUS_TZ; setTz(); };
+  document.getElementById("tz-ist").onclick = function () { state.tz = "Asia/Kolkata"; setTz(); };
+  function setTz() {
+    document.getElementById("tz-pt").setAttribute("aria-pressed", String(state.tz === CAMPUS_TZ));
+    document.getElementById("tz-ist").setAttribute("aria-pressed", String(state.tz !== CAMPUS_TZ));
+    render();
+  }
+
+  /* ---------- load data ---------- */
+  state.anchor = todayCampus();
+  document.getElementById("datepick").value = state.anchor;
+
+  fetch("events.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(function (data) {
+      state.generated = data.generated_at_utc;
+      state.events = (data.events || []).map(function (e) {
+        e.categories = e.categories || [];
+        e.campus_date = campusDateStr(new Date(e.starts_utc));
+        return e;
+      });
+      // Populate calendar filter
+      var cals = {};
+      state.events.forEach(function (e) { if (e.calendar) cals[e.calendar] = true; });
+      var sel = document.getElementById("calfilter");
+      Object.keys(cals).sort().forEach(function (c) {
+        var o = document.createElement("option");
+        o.value = c; o.textContent = c; sel.appendChild(o);
+      });
+      if (state.generated) {
+        document.getElementById("updated").textContent =
+          "Last updated: " + new Date(state.generated).toLocaleString("en-US", { timeZone: state.tz === CAMPUS_TZ ? CAMPUS_TZ : "Asia/Kolkata", dateStyle: "medium", timeStyle: "short" }) + ".";
+      }
+      render();
+    })
+    .catch(function (err) {
+      board.innerHTML = '<div class="error"><strong>No event data yet.</strong><br>' +
+        "The daily data fetch has not run. Go to your GitHub repository &rarr; Actions tab &rarr; “Update Berkeley events” &rarr; Run workflow, then redeploy. (" + esc(err.message) + ")</div>";
+    });
+})();
+</script>
+</body>
+</html>
