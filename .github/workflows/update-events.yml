@@ -23,6 +23,8 @@ jobs:
 
       - name: Fetch latest events
         run: node scraper.js
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
 
       - name: Commit updated events.json (if changed)
         run: |
