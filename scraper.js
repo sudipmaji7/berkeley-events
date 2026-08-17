@@ -440,10 +440,13 @@ async function main() {
   }
 
   // De-duplicate across all sources.
-  const seen = new Set();
+ const seen = new Set();
   const events = [];
   for (const ev of all) {
-    const key = ev.id ? `id:${ev.id}` : `t:${ev.title.toLowerCase()}:${ev.starts_utc}`;
+    const day = campusDateString(new Date(ev.starts_utc));
+    const key = ev.all_day
+      ? `t:${ev.title.toLowerCase()}:${day}:allday`
+      : `t:${ev.title.toLowerCase()}:${ev.starts_utc}`;
     if (seen.has(key)) continue;
     seen.add(key);
     events.push(ev);
