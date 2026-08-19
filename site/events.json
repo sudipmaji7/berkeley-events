@@ -1,203 +1,15 @@
 {
- "generated_at_utc": "2026-08-18T13:57:20.679Z",
+ "generated_at_utc": "2026-08-19T13:58:26.180Z",
  "source": "events.berkeley.edu + Ticketmaster Discovery + iCal feeds + manual entries",
  "range": {
-  "start": "2026-08-18",
-  "end": "2026-10-17"
+  "start": "2026-08-19",
+  "end": "2026-10-18"
  },
- "count": 390,
+ "count": 401,
  "events": [
   {
    "id": "ucb-288815",
    "title": "Exhibit | Centering Philippine and Filipinx American Histories: Selections from The Bancroft Library",
-   "starts_utc": "2026-08-18T07:00:00.000Z",
-   "ends_utc": null,
-   "all_day": true,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/Library/event/288815-centering-philippine-and-filipinx-american",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-309080",
-   "title": "Exhibit | Divestment Now! Student Activism and the Anti-Apartheid Movement at UC Berkeley",
-   "starts_utc": "2026-08-18T07:00:00.000Z",
-   "ends_utc": null,
-   "all_day": true,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/live/events/309073-exhibit-divestment-now-student-activism-and-the-anti-",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-316699",
-   "title": "Exhibit | The Etruscans Uncovered: The Phoebe A. Hearst Collection at UC Berkeley",
-   "starts_utc": "2026-08-18T07:00:00.000Z",
-   "ends_utc": null,
-   "all_day": true,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/live/events/316565-exhibit-the-etruscans-uncovered-the-phoebe-a-hearst-c",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-321254",
-   "title": "Funding and Programming Transportation Projects in California",
-   "starts_utc": "2026-08-18T15:00:00.000Z",
-   "ends_utc": "2026-08-19T00:00:00.000Z",
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/ttp/event/321254-funding-and-programming-transportation-projects-in",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-326677",
-   "title": "Special Seminar: Innovative Drug Discovery from Microbial Natural Products",
-   "starts_utc": "2026-08-18T18:00:00.000Z",
-   "ends_utc": null,
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/chem/event/326677-special-seminar-innovative-drug-discovery-from",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-326132",
-   "title": "[CDO] 1L Launch: Researching with Purpose: How to Explore Career Opportunities through “In-Person Research”",
-   "starts_utc": "2026-08-18T19:50:00.000Z",
-   "ends_utc": null,
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/law/event/326132-cdo-1l-launch-researching-with-purpose-how-to",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-326941",
-   "title": "Operator Algebras Seminar: What is the set of Jones indices of irreducible, hyperfinite subfactors?",
-   "starts_utc": "2026-08-18T21:00:00.000Z",
-   "ends_utc": "2026-08-18T22:00:00.000Z",
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/math/event/326941-operator-algebras-seminar-what-is-the-set-of-jones",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-324795",
-   "title": "SERC Alumni Social &#127804;",
-   "starts_utc": "2026-08-18T23:30:00.000Z",
-   "ends_utc": "2026-08-19T01:00:00.000Z",
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/serc/event/324795-serc-alumni-social",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-326674",
-   "title": "WOCC+ Welcome Mixer",
-   "starts_utc": "2026-08-19T00:00:00.000Z",
-   "ends_utc": null,
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/law/event/326674-wocc-welcome-mixer",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-326686",
-   "title": "I-House Birthday Celebration",
-   "starts_utc": "2026-08-19T00:00:00.000Z",
-   "ends_utc": "2026-08-19T01:00:00.000Z",
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/ihouse/event/326686-i-house-birthday-celebration",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-326685",
-   "title": "I-House Tour #2",
-   "starts_utc": "2026-08-19T02:00:00.000Z",
-   "ends_utc": "2026-08-19T03:00:00.000Z",
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/ihouse/event/326685-i-house-tour-2",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "tm-G5vYZ_1Kqn_jV",
-   "title": "12th Annual Desi Comedy Fest",
-   "starts_utc": "2026-08-19T02:30:00.000Z",
-   "ends_utc": null,
-   "all_day": false,
-   "location": "Punch Line Comedy Club - San Francisco, San Francisco",
-   "calendar": "Ticketmaster",
-   "url": "https://www.ticketmaster.com/12th-annual-desi-comedy-fest-san-francisco-california-08-18-2026/event/1C0064A4DDA99734",
-   "registration_url": "https://www.ticketmaster.com/12th-annual-desi-comedy-fest-san-francisco-california-08-18-2026/event/1C0064A4DDA99734",
-   "summary": "With Abhay Nadkarni, Dhaya Lakshminarayanan, Olivia Naidu, Raza Jafri, Samson Koletkar, and Vivek Venugopal. Doors open 45 minutes before the show. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are not permitted. $.25 per each ticket sold for a majority of events at Punch Line benefits Comedy Giv",
-   "categories": [
-    "Arts & Theatre",
-    "Comedy"
-   ],
-   "has_registration": true
-  },
-  {
-   "id": "tm-G5vYZ_CUd5P8d",
-   "title": "Michael Che Live",
-   "starts_utc": "2026-08-19T03:00:00.000Z",
-   "ends_utc": null,
-   "all_day": false,
-   "location": "Cobb's Comedy Club, San Francisco",
-   "calendar": "Ticketmaster",
-   "url": "https://www.ticketmaster.com/michael-che-live-san-francisco-california-08-18-2026/event/1C0064ED832E5403",
-   "registration_url": "https://www.ticketmaster.com/michael-che-live-san-francisco-california-08-18-2026/event/1C0064ED832E5403",
-   "summary": "Doors open one hour before show time. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are permitted but must be checked in at our complimentary coat check upon arrival. $.25 per each ticket sold for most of our shows benefits Comedy Gives Back, a safety net for the comedy community. For more inform",
-   "categories": [
-    "Arts & Theatre",
-    "Comedy"
-   ],
-   "has_registration": true
-  },
-  {
-   "id": "ucb-288815",
-   "title": "Exhibit | Centering Philippine and Filipinx American Histories: Selections from The Bancroft Library",
    "starts_utc": "2026-08-19T07:00:00.000Z",
    "ends_utc": null,
    "all_day": true,
@@ -210,14 +22,14 @@
    "has_registration": false
   },
   {
-   "id": "ucb-309080",
+   "id": "ucb-309712",
    "title": "Exhibit | Divestment Now! Student Activism and the Anti-Apartheid Movement at UC Berkeley",
    "starts_utc": "2026-08-19T07:00:00.000Z",
    "ends_utc": null,
    "all_day": true,
    "location": "",
    "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/live/events/309073-exhibit-divestment-now-student-activism-and-the-anti-",
+   "url": "https://events.berkeley.edu/AC/event/309712-exhibit-divestment-now-student-activism-and-the",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -232,6 +44,20 @@
    "location": "",
    "calendar": "UC Berkeley",
    "url": "https://events.berkeley.edu/live/events/316565-exhibit-the-etruscans-uncovered-the-phoebe-a-hearst-c",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-324461",
+   "title": "Post-Baccalaureate Program in Psychology Online Information Session",
+   "starts_utc": "2026-08-19T16:00:00.000Z",
+   "ends_utc": "2026-08-19T17:00:00.000Z",
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/extension/event/324461-post-baccalaureate-program-in-psychology-online-infor",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -252,14 +78,14 @@
    "has_registration": false
   },
   {
-   "id": "ucb-324461",
-   "title": "Post-Baccalaureate Program in Psychology Online Information Session",
-   "starts_utc": "2026-08-19T16:00:00.000Z",
-   "ends_utc": "2026-08-19T17:00:00.000Z",
+   "id": "ucb-326717",
+   "title": "Elder Care Summer Series: Self-Compassion for Family Caregivers",
+   "starts_utc": "2026-08-19T19:00:00.000Z",
+   "ends_utc": "2026-08-19T20:00:00.000Z",
    "all_day": false,
    "location": "",
    "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/extension/event/324461-post-baccalaureate-program-in-psychology-online-infor",
+   "url": "https://events.berkeley.edu/uhs/event/326717-elder-care-summer-series-self-compassion-for-family-c",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -294,34 +120,6 @@
    "has_registration": false
   },
   {
-   "id": "ucb-244764",
-   "title": "Staff Alliance for Disability Access General Membership Meeting",
-   "starts_utc": "2026-08-19T19:00:00.000Z",
-   "ends_utc": "2026-08-19T20:00:00.000Z",
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/ADA/event/244764-staff-alliance-for-disability-access-general",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-326717",
-   "title": "Elder Care Summer Series: Self-Compassion for Family Caregivers",
-   "starts_utc": "2026-08-19T19:00:00.000Z",
-   "ends_utc": "2026-08-19T20:00:00.000Z",
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/uhs/event/326717-elder-care-summer-series-self-compassion-for-family-c",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
    "id": "ucb-323334",
    "title": "Personal Financial Planning Career Connections: Robert Half",
    "starts_utc": "2026-08-19T19:00:00.000Z",
@@ -330,6 +128,20 @@
    "location": "",
    "calendar": "UC Berkeley",
    "url": "https://events.berkeley.edu/extension/event/323334-personal-financial-planning-career-connections-robert",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-244764",
+   "title": "Staff Alliance for Disability Access General Membership Meeting",
+   "starts_utc": "2026-08-19T19:00:00.000Z",
+   "ends_utc": "2026-08-19T20:00:00.000Z",
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/ADA/event/244764-staff-alliance-for-disability-access-general",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -350,20 +162,6 @@
    "has_registration": false
   },
   {
-   "id": "ucb-325289",
-   "title": "International Student Orientation - Virtual Sessions",
-   "starts_utc": "2026-08-19T20:00:00.000Z",
-   "ends_utc": "2026-08-20T00:00:00.000Z",
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/bio/event/325289-international-student-orientation-virtual",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
    "id": "ucb-324024",
    "title": "Professional Program in Project Management Information Session",
    "starts_utc": "2026-08-19T20:00:00.000Z",
@@ -378,14 +176,28 @@
    "has_registration": false
   },
   {
-   "id": "ucb-326009",
+   "id": "ucb-325289",
+   "title": "International Student Orientation - Virtual Sessions",
+   "starts_utc": "2026-08-19T20:00:00.000Z",
+   "ends_utc": "2026-08-20T00:00:00.000Z",
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/bio/event/325289-international-student-orientation-virtual",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-320858",
    "title": "August Butterfly Walk",
    "starts_utc": "2026-08-19T21:00:00.000Z",
    "ends_utc": "2026-08-19T22:00:00.000Z",
    "all_day": false,
    "location": "",
    "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/townsend/event/326009-august-butterfly-walk",
+   "url": "https://events.berkeley.edu/bot/event/320858-august-butterfly-walk",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -420,10 +232,10 @@
    "has_registration": false
   },
   {
-   "id": "ucb-322440",
+   "id": "ucb-322427",
    "title": "Film Screening – “Bob le flambeur”",
    "starts_utc": "2026-08-20T02:00:00.000Z",
-   "ends_utc": "2026-08-20T03:00:00.000Z",
+   "ends_utc": null,
    "all_day": false,
    "location": "",
    "calendar": "UC Berkeley",
@@ -491,7 +303,7 @@
    "calendar": "Ticketmaster",
    "url": "https://www.ticketmaster.com/michael-che-live-san-francisco-california-08-19-2026/event/1C0064ED83335414",
    "registration_url": "https://www.ticketmaster.com/michael-che-live-san-francisco-california-08-19-2026/event/1C0064ED83335414",
-   "summary": "Doors open one hour before show time. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are permitted but must be checked in at our complimentary coat check upon arrival. $.25 per each ticket sold for most of our shows benefits Comedy Gives Back, a safety net for the comedy community. For more inform",
+   "summary": "With Wil Slyvince, Reggie Conquest, and Calise Hawkins. Doors open one hour before show time. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are permitted but must be checked in at our complimentary coat check upon arrival. $.25 per each ticket sold for most of our shows benefits Comedy Gives Back",
    "categories": [
     "Arts & Theatre",
     "Comedy"
@@ -513,14 +325,14 @@
    "has_registration": false
   },
   {
-   "id": "ucb-309712",
+   "id": "ucb-309080",
    "title": "Exhibit | Divestment Now! Student Activism and the Anti-Apartheid Movement at UC Berkeley",
    "starts_utc": "2026-08-20T07:00:00.000Z",
    "ends_utc": null,
    "all_day": true,
    "location": "",
    "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/AC/event/309712-exhibit-divestment-now-student-activism-and-the",
+   "url": "https://events.berkeley.edu/live/events/309073-exhibit-divestment-now-student-activism-and-the-anti-",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -695,10 +507,10 @@
    "has_registration": false
   },
   {
-   "id": "ucb-322439",
+   "id": "ucb-322428",
    "title": "Film Screening – “A.I. Artificial Intelligence”",
    "starts_utc": "2026-08-21T02:00:00.000Z",
-   "ends_utc": "2026-08-21T03:00:00.000Z",
+   "ends_utc": null,
    "all_day": false,
    "location": "",
    "calendar": "UC Berkeley",
@@ -766,7 +578,7 @@
    "calendar": "Ticketmaster",
    "url": "https://www.ticketmaster.com/michael-che-live-san-francisco-california-08-20-2026/event/1C0064ED83375420",
    "registration_url": "https://www.ticketmaster.com/michael-che-live-san-francisco-california-08-20-2026/event/1C0064ED83375420",
-   "summary": "Doors open one hour before show time. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are permitted but must be checked in at our complimentary coat check upon arrival. $.25 per each ticket sold for most of our shows benefits Comedy Gives Back, a safety net for the comedy community. For more inform",
+   "summary": "With Wil Slyvince, Reggie Conquest, and Calise Hawkins. Doors open one hour before show time. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are permitted but must be checked in at our complimentary coat check upon arrival. $.25 per each ticket sold for most of our shows benefits Comedy Gives Back",
    "categories": [
     "Arts & Theatre",
     "Comedy"
@@ -783,7 +595,7 @@
    "calendar": "Ticketmaster",
    "url": "https://www.ticketmaster.com/michael-che-live-san-francisco-california-08-20-2026/event/1C006506B66F26BD",
    "registration_url": "https://www.ticketmaster.com/michael-che-live-san-francisco-california-08-20-2026/event/1C006506B66F26BD",
-   "summary": "Doors open 30 minutes before show time. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are permitted but must be checked in at our complimentary coat check upon arrival. $.25 per each ticket sold for most of our shows benefits Comedy Gives Back, a safety net for the comedy community. For more info",
+   "summary": "With Wil Slyvince, Reggie Conquest, and Calise Hawkins. Doors open 30 minutes before show time. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are permitted but must be checked in at our complimentary coat check upon arrival. $.25 per each ticket sold for most of our shows benefits Comedy Gives Ba",
    "categories": [
     "Arts & Theatre",
     "Comedy"
@@ -805,14 +617,14 @@
    "has_registration": false
   },
   {
-   "id": "ucb-309080",
+   "id": "ucb-309712",
    "title": "Exhibit | Divestment Now! Student Activism and the Anti-Apartheid Movement at UC Berkeley",
    "starts_utc": "2026-08-21T07:00:00.000Z",
    "ends_utc": null,
    "all_day": true,
    "location": "",
    "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/live/events/309073-exhibit-divestment-now-student-activism-and-the-anti-",
+   "url": "https://events.berkeley.edu/AC/event/309712-exhibit-divestment-now-student-activism-and-the",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -889,14 +701,14 @@
    "has_registration": false
   },
   {
-   "id": "ucb-323722",
-   "title": "Clinical Laboratory Scientist Preparatory Program Online Information Session",
+   "id": "ucb-326718",
+   "title": "CLR Notes Publishing Info Session",
    "starts_utc": "2026-08-21T20:00:00.000Z",
-   "ends_utc": "2026-08-21T21:00:00.000Z",
+   "ends_utc": null,
    "all_day": false,
    "location": "",
    "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/extension/event/323722-clinical-laboratory-scientist-preparatory-program-onl",
+   "url": "https://events.berkeley.edu/law/event/326718-clr-notes-publishing-info-session",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -917,14 +729,14 @@
    "has_registration": false
   },
   {
-   "id": "ucb-326718",
-   "title": "CLR Notes Publishing Info Session",
+   "id": "ucb-323722",
+   "title": "Clinical Laboratory Scientist Preparatory Program Online Information Session",
    "starts_utc": "2026-08-21T20:00:00.000Z",
-   "ends_utc": null,
+   "ends_utc": "2026-08-21T21:00:00.000Z",
    "all_day": false,
    "location": "",
    "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/law/event/326718-clr-notes-publishing-info-session",
+   "url": "https://events.berkeley.edu/extension/event/323722-clinical-laboratory-scientist-preparatory-program-onl",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -976,6 +788,34 @@
    "has_registration": true
   },
   {
+   "id": "ucb-324009",
+   "title": "California Men’s Soccer at Portland",
+   "starts_utc": "2026-08-22T02:00:00.000Z",
+   "ends_utc": "2026-08-22T04:00:00.000Z",
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/sports/event/324009-california-mens-soccer-at-portland",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-322438",
+   "title": "Film Screening – “Four Films by Jerome Hiler”",
+   "starts_utc": "2026-08-22T02:00:00.000Z",
+   "ends_utc": "2026-08-22T03:00:00.000Z",
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/BAMPFA/event/322429-film-screening-four-films-by-jerome-hiler",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
    "id": "ucb-324823",
    "title": "[MSOC] Cal @ Portland",
    "starts_utc": "2026-08-22T02:00:00.000Z",
@@ -990,32 +830,21 @@
    "has_registration": false
   },
   {
-   "id": "ucb-323861",
-   "title": "Film Screening – “Four Films by Jerome Hiler”",
+   "id": "tm-G5vYZ_5mmG6t5",
+   "title": "Earthless",
    "starts_utc": "2026-08-22T02:00:00.000Z",
    "ends_utc": null,
    "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/townsend/event/323861-film-screening-four-films-by-jerome-hiler",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
-  },
-  {
-   "id": "ucb-324009",
-   "title": "California Men’s Soccer at Portland",
-   "starts_utc": "2026-08-22T02:00:00.000Z",
-   "ends_utc": "2026-08-22T04:00:00.000Z",
-   "all_day": false,
-   "location": "",
-   "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/sports/event/324009-california-mens-soccer-at-portland",
-   "registration_url": null,
-   "summary": "",
-   "categories": [],
-   "has_registration": false
+   "location": "Siesta Valley Bowl, Orinda",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/earthless-orinda-california-08-21-2026/event/1C0064BBAE307A4B",
+   "registration_url": "https://www.ticketmaster.com/earthless-orinda-california-08-21-2026/event/1C0064BBAE307A4B",
+   "summary": "Originally scheduled for Fri Aug 21 2026 8:00pm. Previously purchased tickets will be honored for the new time.",
+   "categories": [
+    "Music",
+    "Metal"
+   ],
+   "has_registration": true
   },
   {
    "id": "tm-G5vYZ_aS02qXG",
@@ -1048,23 +877,6 @@
    "categories": [
     "Arts & Theatre",
     "Comedy"
-   ],
-   "has_registration": true
-  },
-  {
-   "id": "tm-G5vYZ_5mmG6t5",
-   "title": "Earthless",
-   "starts_utc": "2026-08-22T03:00:00.000Z",
-   "ends_utc": null,
-   "all_day": false,
-   "location": "Siesta Valley Bowl, Orinda",
-   "calendar": "Ticketmaster",
-   "url": "https://www.ticketmaster.com/earthless-orinda-california-08-21-2026/event/1C0064BBAE307A4B",
-   "registration_url": "https://www.ticketmaster.com/earthless-orinda-california-08-21-2026/event/1C0064BBAE307A4B",
-   "summary": "Mandatory ticket add-ons include the EBMUD Customer Assistance Program (CAP) fund, the 501(c)(3) Siesta Valley Foundation Community Mission fund, and a small service charge to offset ticketing and promoter costs.",
-   "categories": [
-    "Music",
-    "Metal"
    ],
    "has_registration": true
   },
@@ -1126,7 +938,7 @@
    "calendar": "Ticketmaster",
    "url": "https://www.ticketweb.com/event/cuffing-season-the-crybaby-tickets/14993413",
    "registration_url": "https://www.ticketweb.com/event/cuffing-season-the-crybaby-tickets/14993413",
-   "summary": "✨a R&B party for you + boo to bump, grind, and freak to✨Pull up to Crybaby on Friday, August 21st with a boo or find some love at the club. R&B bangers and club anthems all night. Be ready for to experience what it would be like if T-Pain, Burna Boy, Kehlani and Drake had a party.DJs TBA!9:00 PM | 21+ | Drink Specials All NightLimited free entry with RSVP, but only the first 25...dont sleep on it,",
+   "summary": "✨a R&B party for you + boo to bump, grind, and freak to✨Pull up to Crybaby on Friday, August 21st with a boo or find some love at the club. R&B bangers and club anthems all night. Be ready for to experience what it would be like if T-Pain, Burna Boy, Kehlani and Drake had a party.Sounds by 4RV + Jafin + Mixz + Edel (SteadyRnB) + Special Guests!9:00 PM | 21+ | Drink Specials All NightLimited free e",
    "categories": [
     "Music",
     "R&B"
@@ -1199,14 +1011,14 @@
    "has_registration": false
   },
   {
-   "id": "ucb-309080",
+   "id": "ucb-309712",
    "title": "Exhibit | Divestment Now! Student Activism and the Anti-Apartheid Movement at UC Berkeley",
    "starts_utc": "2026-08-22T07:00:00.000Z",
    "ends_utc": null,
    "all_day": true,
    "location": "",
    "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/live/events/309073-exhibit-divestment-now-student-activism-and-the-anti-",
+   "url": "https://events.berkeley.edu/AC/event/309712-exhibit-divestment-now-student-activism-and-the",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -1300,14 +1112,14 @@
    "has_registration": true
   },
   {
-   "id": "ucb-322430",
+   "id": "ucb-324785",
    "title": "Film Screening – “Pom Poko”",
    "starts_utc": "2026-08-22T22:30:00.000Z",
    "ends_utc": null,
    "all_day": false,
    "location": "",
    "calendar": "UC Berkeley",
-   "url": "https://events.berkeley.edu/BAMPFA/event/322430-film-screening-pom-poko",
+   "url": "https://events.berkeley.edu/townsend/event/324785-film-screening-pom-poko",
    "registration_url": null,
    "summary": "",
    "categories": [],
@@ -1356,10 +1168,10 @@
    "has_registration": false
   },
   {
-   "id": "ucb-322436",
+   "id": "ucb-322431",
    "title": "Film Screening – “Barry Lyndon”",
    "starts_utc": "2026-08-23T01:00:00.000Z",
-   "ends_utc": "2026-08-23T02:00:00.000Z",
+   "ends_utc": null,
    "all_day": false,
    "location": "",
    "calendar": "UC Berkeley",
@@ -1604,10 +1416,10 @@
    "has_registration": false
   },
   {
-   "id": "ucb-322432",
+   "id": "ucb-322435",
    "title": "Film Screening – “My Neighbor Totoro”",
    "starts_utc": "2026-08-23T21:00:00.000Z",
-   "ends_utc": null,
+   "ends_utc": "2026-08-23T22:00:00.000Z",
    "all_day": false,
    "location": "",
    "calendar": "UC Berkeley",
@@ -1745,6 +1557,160 @@
    "has_registration": true
   },
   {
+   "id": "ucb-288815",
+   "title": "Exhibit | Centering Philippine and Filipinx American Histories: Selections from The Bancroft Library",
+   "starts_utc": "2026-08-24T07:00:00.000Z",
+   "ends_utc": null,
+   "all_day": true,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/Library/event/288815-centering-philippine-and-filipinx-american",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-309080",
+   "title": "Exhibit | Divestment Now! Student Activism and the Anti-Apartheid Movement at UC Berkeley",
+   "starts_utc": "2026-08-24T07:00:00.000Z",
+   "ends_utc": null,
+   "all_day": true,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/live/events/309073-exhibit-divestment-now-student-activism-and-the-anti-",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-316699",
+   "title": "Exhibit | The Etruscans Uncovered: The Phoebe A. Hearst Collection at UC Berkeley",
+   "starts_utc": "2026-08-24T07:00:00.000Z",
+   "ends_utc": null,
+   "all_day": true,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/live/events/316565-exhibit-the-etruscans-uncovered-the-phoebe-a-hearst-c",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-326719",
+   "title": "Free Coffee and Tea for Students",
+   "starts_utc": "2026-08-24T15:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/law/event/326719-free-coffee-and-tea-for-students",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-324613",
+   "title": "Probabilistic Operator Algebra Seminar: Strongly Convergent Random Matrix Models for $q$-Gaussian Families",
+   "starts_utc": "2026-08-24T16:00:00.000Z",
+   "ends_utc": "2026-08-24T17:30:00.000Z",
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/math/event/324613-probabilistic-operator-algebra-seminar-strongly",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-325952",
+   "title": "Event: Career Clinic - CV reviews for the academic job search",
+   "starts_utc": "2026-08-24T16:00:00.000Z",
+   "ends_utc": "2026-08-29T00:00:00.000Z",
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/QB3/event/325952-event-career-clinic-cv-reviews-for-the-academic-job-s",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-323511",
+   "title": "ACerS Cements Division Presents Beyond the Bulk: Shifting Paradigms to Fundamentally Understand SCM Reactivity",
+   "starts_utc": "2026-08-24T17:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/cee/event/323511-acers-cements-division-presents-beyond-the-bulk",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-326988",
+   "title": "[Miller] Welcome Reception for New Students Interested in International Law",
+   "starts_utc": "2026-08-24T19:50:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/law/event/326988-miller-welcome-reception-for-new-students",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-326987",
+   "title": "Consumer Law and Economic Justice Student Orientation",
+   "starts_utc": "2026-08-24T20:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/law/event/326987-consumer-law-and-economic-justice-student",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-326986",
+   "title": "AI @ Berkeley Law General Body Meeting",
+   "starts_utc": "2026-08-24T20:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://events.berkeley.edu/law/event/326986-ai-berkeley-law-general-body-meeting",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
+   "id": "ucb-326731",
+   "title": "Tour of the Chemistry, Astronomy & Physics Library",
+   "starts_utc": "2026-08-24T21:30:00.000Z",
+   "ends_utc": "2026-08-24T21:45:00.000Z",
+   "all_day": false,
+   "location": "",
+   "calendar": "UC Berkeley",
+   "url": "https://berkeley.libcal.com/calendar/workshops/chem-tours-1",
+   "registration_url": null,
+   "summary": "",
+   "categories": [],
+   "has_registration": false
+  },
+  {
    "id": "tm-Z7r9jZ1A7Q8qK",
    "title": "San Francisco Giants vs. Cincinnati Reds",
    "starts_utc": "2026-08-25T01:45:00.000Z",
@@ -1771,7 +1737,7 @@
    "calendar": "Ticketmaster",
    "url": "https://www.ticketmaster.com/molly-kearney-san-francisco-california-08-24-2026/event/1C0064AAB20AC653",
    "registration_url": "https://www.ticketmaster.com/molly-kearney-san-francisco-california-08-24-2026/event/1C0064AAB20AC653",
-   "summary": "Hosted by Tony Zavala. Doors open one hour before the show. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are not permitted. $.25 per each ticket sold for a majority of events at Punch Line benefits Comedy Gives Back, a safety net for the comedy community. For more information, please visit www.c",
+   "summary": "Featuring Natasha Muse, hosted by Tony Zavala. Doors open one hour before the show. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are not permitted. $.25 per each ticket sold for a majority of events at Punch Line benefits Comedy Gives Back, a safety net for the comedy community. For more informa",
    "categories": [
     "Arts & Theatre",
     "Comedy"
@@ -1805,7 +1771,7 @@
    "calendar": "Ticketmaster",
    "url": "https://www.ticketmaster.com/olivia-carter-san-francisco-california-08-25-2026/event/1C0064B336774924",
    "registration_url": "https://www.ticketmaster.com/olivia-carter-san-francisco-california-08-25-2026/event/1C0064B336774924",
-   "summary": "Doors open one hour before the show. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are not permitted. $.25 per each ticket sold for a majority of events at Punch Line benefits Comedy Gives Back, a safety net for the comedy community. For more information, please visit www.comedygivesback.com Our ",
+   "summary": "Hosted by Iain Langlands. Doors open one hour before the show. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are not permitted. $.25 per each ticket sold for a majority of events at Punch Line benefits Comedy Gives Back, a safety net for the comedy community. For more information, please visit ww",
    "categories": [
     "Arts & Theatre",
     "Comedy"
@@ -1856,7 +1822,7 @@
    "calendar": "Ticketmaster",
    "url": "https://www.ticketmaster.com/olivia-carter-san-francisco-california-08-26-2026/event/1C0064B3367B4927",
    "registration_url": "https://www.ticketmaster.com/olivia-carter-san-francisco-california-08-26-2026/event/1C0064B3367B4927",
-   "summary": "Doors open one hour before the show. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are not permitted. $.25 per each ticket sold for a majority of events at Punch Line benefits Comedy Gives Back, a safety net for the comedy community. For more information, please visit www.comedygivesback.com Our ",
+   "summary": "Hosted by Iain Langlands. Doors open one hour before the show. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are not permitted. $.25 per each ticket sold for a majority of events at Punch Line benefits Comedy Gives Back, a safety net for the comedy community. For more information, please visit ww",
    "categories": [
     "Arts & Theatre",
     "Comedy"
@@ -4126,14 +4092,14 @@
   },
   {
    "id": "tm-G5vYZ_2O0xHNw",
-   "title": "Pete Escovedo Orchestra",
+   "title": "The Pete Escovedo Orchestra",
    "starts_utc": "2026-09-26T03:00:00.000Z",
    "ends_utc": null,
    "all_day": false,
    "location": "Siesta Valley Bowl, Orinda",
    "calendar": "Ticketmaster",
-   "url": "https://www.ticketmaster.com/pete-escovedo-orchestra-orinda-california-09-25-2026/event/1C0064F8248BC8F2",
-   "registration_url": "https://www.ticketmaster.com/pete-escovedo-orchestra-orinda-california-09-25-2026/event/1C0064F8248BC8F2",
+   "url": "https://www.ticketmaster.com/the-pete-escovedo-orchestra-orinda-california-09-25-2026/event/1C0064F8248BC8F2",
+   "registration_url": "https://www.ticketmaster.com/the-pete-escovedo-orchestra-orinda-california-09-25-2026/event/1C0064F8248BC8F2",
    "summary": "Mandatory ticket add-ons include the EBMUD Customer Assistance Program (CAP) fund, the 501(c)(3) Siesta Valley Foundation Community Mission fund, and a small service charge to offset ticketing and promoter costs.",
    "categories": [
     "Music",
@@ -6378,6 +6344,226 @@
    "categories": [
     "Miscellaneous",
     "Ice Shows"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-rZ7HnEZ1AfPtkd",
+   "title": "DAYSHIFT - The 30+ Daytime Party!",
+   "starts_utc": "2026-10-18T00:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Crybaby, Oakland",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketweb.com/event/dayshift-the-30-crybaby-tickets/14969183",
+   "registration_url": "https://www.ticketweb.com/event/dayshift-the-30-crybaby-tickets/14969183",
+   "summary": "This event is 21 and over. Any ticket holder unable to present valid identification indicating that they are at least 21 years of age will not be admitted to this event, and will not be eligible for a refund.",
+   "categories": [
+    "Miscellaneous"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-G5vYZ_aLvXlM-",
+   "title": "Disney On Ice presents Find Your Hero",
+   "starts_utc": "2026-10-18T01:30:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Oakland Arena, Oakland",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/disney-on-ice-presents-find-your-oakland-california-10-17-2026/event/1C006497C1FABDE1",
+   "registration_url": "https://www.ticketmaster.com/disney-on-ice-presents-find-your-oakland-california-10-17-2026/event/1C006497C1FABDE1",
+   "summary": "Unlock your inner hero when Disney On Ice brings your favorite stories to the ice! Sail away with Moana and Maui on their epic voyage to return the heart of Te Fiti. Feel the chill with Anna, Elsa, and Olaf as they race to restore summer in Arendelle. Move to the rhythms of Encanto as Mirabel and her family celebrate the power of every unique gift. Be inspired by the Disney Princesses as you swim ",
+   "categories": [
+    "Miscellaneous",
+    "Ice Shows"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-G5vYZ_FnsMqMy",
+   "title": "Aaron Weber",
+   "starts_utc": "2026-10-18T02:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Punch Line Comedy Club - San Francisco, San Francisco",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/aaron-weber-san-francisco-california-10-17-2026/event/1C00648AB1DDDDF9",
+   "registration_url": "https://www.ticketmaster.com/aaron-weber-san-francisco-california-10-17-2026/event/1C00648AB1DDDDF9",
+   "summary": "Doors open one hour before the show. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are not permitted. $.25 per each ticket sold for a majority of events at Punch Line benefits Comedy Gives Back, a safety net for the comedy community. For more information, please visit www.comedygivesback.com Our ",
+   "categories": [
+    "Arts & Theatre",
+    "Comedy"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-G5vYZ_udsBAWD",
+   "title": "Ashley Gavin",
+   "starts_utc": "2026-10-18T02:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Cobb's Comedy Club, San Francisco",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/ashley-gavin-san-francisco-california-10-17-2026/event/1C0064D0F1E85F7B",
+   "registration_url": "https://www.ticketmaster.com/ashley-gavin-san-francisco-california-10-17-2026/event/1C0064D0F1E85F7B",
+   "summary": "Doors open one hour before show time. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are permitted but must be checked in at our complimentary coat check upon arrival. $.25 per each ticket sold for most of our shows benefits Comedy Gives Back, a safety net for the comedy community. For more inform",
+   "categories": [
+    "Arts & Theatre",
+    "Comedy"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-G5vYZ_8Go2xkN",
+   "title": "Sam Grisman Project",
+   "starts_utc": "2026-10-18T03:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Siesta Valley Bowl, Orinda",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/sam-grisman-project-orinda-california-10-17-2026/event/1C006503113E21A3",
+   "registration_url": "https://www.ticketmaster.com/sam-grisman-project-orinda-california-10-17-2026/event/1C006503113E21A3",
+   "summary": "Mandatory ticket add-ons include the EBMUD Customer Assistance Program (CAP) fund, the 501(c)(3) Siesta Valley Foundation Community Mission fund, and a small service charge to offset ticketing and promoter costs.",
+   "categories": [
+    "Music",
+    "Rock"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-G5vYZ_uv1JKFh",
+   "title": "Fortune Feimster: Takin' Care of Biscuits Comedy Tour",
+   "starts_utc": "2026-10-18T03:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Fox Theater - Oakland, Oakland",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/fortune-feimster-takin-care-of-biscuits-oakland-california-10-17-2026/event/1C0064D04A99321B",
+   "registration_url": "https://www.ticketmaster.com/fortune-feimster-takin-care-of-biscuits-oakland-california-10-17-2026/event/1C0064D04A99321B",
+   "summary": "Tickets to the Telegraph Room are now available at check out. The Telegraph Room includes: * Separate entrance to the venue * Access to the Telegraph Room before, during and after the show * Dedicated restrooms * Premier bar serving exclusive beers, liquors and specialty cocktails * Complimentary hors d'oeuvres * Complimentary coat check",
+   "categories": [
+    "Arts & Theatre",
+    "Comedy"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-rZ7HnEZ1Af0Sbd",
+   "title": "Lewis OfMan",
+   "starts_utc": "2026-10-18T03:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Bimbo's 365 Club, San Francisco",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketweb.com/event/lewis-ofman-bimbos-365-club-tickets/14933603",
+   "registration_url": "https://www.ticketweb.com/event/lewis-ofman-bimbos-365-club-tickets/14933603",
+   "summary": "50KWTTS North American Tour21+ ONLY. Please note - there is a delivery delay set for 2 weeks prior to show.",
+   "categories": [
+    "Music",
+    "Alternative"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-Z7r9jZ1A7PIC3",
+   "title": "Last Dinosaurs",
+   "starts_utc": "2026-10-18T04:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Cornerstone - CA, Berkeley",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIC3",
+   "registration_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIC3",
+   "summary": "",
+   "categories": [
+    "Music",
+    "Other"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-G5vYZ_Fnszqz2",
+   "title": "Aaron Weber",
+   "starts_utc": "2026-10-18T04:15:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Punch Line Comedy Club - San Francisco, San Francisco",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/aaron-weber-san-francisco-california-10-17-2026/event/1C00648AB1E1DE0F",
+   "registration_url": "https://www.ticketmaster.com/aaron-weber-san-francisco-california-10-17-2026/event/1C00648AB1E1DE0F",
+   "summary": "Doors open 30 minutes before the show. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are not permitted. $.25 per each ticket sold for a majority of events at Punch Line benefits Comedy Gives Back, a safety net for the comedy community. For more information, please visit www.comedygivesback.com Ou",
+   "categories": [
+    "Arts & Theatre",
+    "Comedy"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-G5vYZ_udszgWy",
+   "title": "Ashley Gavin",
+   "starts_utc": "2026-10-18T04:15:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Cobb's Comedy Club, San Francisco",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/ashley-gavin-san-francisco-california-10-17-2026/event/1C0064D0F1E35F79",
+   "registration_url": "https://www.ticketmaster.com/ashley-gavin-san-francisco-california-10-17-2026/event/1C0064D0F1E35F79",
+   "summary": "Doors open 30 minutes before show time. This show is 18 & over with valid, government-issued photo ID. There is a two beverage minimum per person. Cameras and video/audio recording devices are permitted but must be checked in at our complimentary coat check upon arrival. $.25 per each ticket sold for most of our shows benefits Comedy Gives Back, a safety net for the comedy community. For more info",
+   "categories": [
+    "Arts & Theatre",
+    "Comedy"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-G5vYZ_aLed5z0",
+   "title": "Disney On Ice presents Find Your Hero",
+   "starts_utc": "2026-10-18T18:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Oakland Arena, Oakland",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/disney-on-ice-presents-find-your-oakland-california-10-18-2026/event/1C006497C20CBE24",
+   "registration_url": "https://www.ticketmaster.com/disney-on-ice-presents-find-your-oakland-california-10-18-2026/event/1C006497C20CBE24",
+   "summary": "Unlock your inner hero when Disney On Ice brings your favorite stories to the ice! Sail away with Moana and Maui on their epic voyage to return the heart of Te Fiti. Feel the chill with Anna, Elsa, and Olaf as they race to restore summer in Arendelle. Move to the rhythms of Encanto as Mirabel and her family celebrate the power of every unique gift. Be inspired by the Disney Princesses as you swim ",
+   "categories": [
+    "Miscellaneous",
+    "Ice Shows"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-G5vYZ_aLevDza",
+   "title": "Disney On Ice presents Find Your Hero",
+   "starts_utc": "2026-10-18T22:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Oakland Arena, Oakland",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/disney-on-ice-presents-find-your-oakland-california-10-18-2026/event/1C006497C207BE09",
+   "registration_url": "https://www.ticketmaster.com/disney-on-ice-presents-find-your-oakland-california-10-18-2026/event/1C006497C207BE09",
+   "summary": "Unlock your inner hero when Disney On Ice brings your favorite stories to the ice! Sail away with Moana and Maui on their epic voyage to return the heart of Te Fiti. Feel the chill with Anna, Elsa, and Olaf as they race to restore summer in Arendelle. Move to the rhythms of Encanto as Mirabel and her family celebrate the power of every unique gift. Be inspired by the Disney Princesses as you swim ",
+   "categories": [
+    "Miscellaneous",
+    "Ice Shows"
+   ],
+   "has_registration": true
+  },
+  {
+   "id": "tm-G5vYZ_GMSX53d",
+   "title": "Anthony Locascio",
+   "starts_utc": "2026-10-18T23:00:00.000Z",
+   "ends_utc": null,
+   "all_day": false,
+   "location": "Punch Line Comedy Club - San Francisco, San Francisco",
+   "calendar": "Ticketmaster",
+   "url": "https://www.ticketmaster.com/anthony-locascio-san-francisco-california-10-18-2026/event/1C0064CDF3F8B483",
+   "registration_url": "https://www.ticketmaster.com/anthony-locascio-san-francisco-california-10-18-2026/event/1C0064CDF3F8B483",
+   "summary": "Unfortunately, the Event Organizer has had to cancel your event. You don't need to do a thing. We'll issue a refund to the [original method of payment](https://help.ticketmaster.com/hc/en-us/articles/9614074869009) used at time of purchase, as soon as funds are received from the Event Organizer. It should appear on your account within 14-21 days. Please Note: If the tickets were transferred to you",
+   "categories": [
+    "Arts & Theatre",
+    "Comedy"
    ],
    "has_registration": true
   }
